@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d ! -name "." ! -name ".." | -c 1
+count=$(find . -type d ! -name '.' ! -name '..' | wc -l)
