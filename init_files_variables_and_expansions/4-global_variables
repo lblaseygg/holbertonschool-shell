@@ -1,2 +1,2 @@
 #!/bin/bash
-env_output=$(env) for var in $env_output do echo "${var%%=*}" done
+printenv
