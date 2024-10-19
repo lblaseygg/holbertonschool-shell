@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$PATH" | tr -cd ':' | awk '{print $1 + 1}'
