@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(( $(echo $WATER | tr 'ewwa' '0123' | tr -d '\n') + $(echo $STIR | tr 'tit.' '0123' | tr -d '\n') ))
