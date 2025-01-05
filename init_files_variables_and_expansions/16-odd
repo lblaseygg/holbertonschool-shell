@@ -1,2 +1,2 @@
 #!/bin/bash
-nl -ba | grep -E '^[0-9]+[[:blank:]]+[^[:blank:]]*$' 
+paste - - | cut -f1
